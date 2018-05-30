@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password2</title>
+<script type="text/javascript">
+
+	function check()
+	{
+		var d= new Date();
+		var h=d.getHours();
+		var m=d.getMinutes();
+		
+		if (h>12) 
+		{
+			h=h-12;
+		}
+		else if(h==00)
+		{
+			h=12;
+		}
+
+		if(h<10)
+		{
+			var hrs="0"+(h.toString());
+		}
+		else
+		{
+			var hrs=(h.toString());
+		}
+
+		if(m<10)
+		{
+			var min="0"+(m.toString());
+		}
+		else
+		{
+			var min=(m.toString());
+		}
+
+		var times=(hrs)+(min);
+		var h1=document.getElementById('h1').value;
+		var h2=document.getElementById('h2').value;
+		var m1=document.getElementById('m1').value;
+		var m2=document.getElementById('m2').value;
+
+		var pass_entered=(h1.toString())+(h2.toString())+(m1.toString())+(m2.toString());
+
+		document.getElementById('printf').innerHTML=times;
+
+		if(times==pass_entered)
+		{
+			window.location.href = "ans1.html";
+		}
+		else
+		{
+			document.getElementById('printf').innerHTML="WR0|/*|G";
+		}
+	}	
+		
+	</script>
+
+</head>
+<body style="overflow-y:hidden;overflow-x:hidden">
+
+	<div style="background-color:#09090a;position:absolute;top:0px;left:0px">
+		<video style="width:360px" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:0px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:400px;left:0px">
+		<video width="360" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:0px">
+		<video width="260" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+
+	<div style="background-color:#09090a;position:absolute;top:0px;left:360px">
+		<video style="width:360px" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:260px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:400px;left:360px">
+		<video width="360" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:260px">
+		<video width="260" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:0px;left:720px">
+		<video style="width:360px" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:520px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:400px;left:720px">
+		<video width="360" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:520px">
+		<video width="260" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+
+
+
+
+<div style="background-color:#09090a;position:absolute;top:0px;left:1080px">
+		<video style="width:360px" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:780px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:400px;left:1080px">
+		<video width="360" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:780px">
+		<video width="260" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>	
+
+
+
+
+
+
+	<div style="background-color:#09090a;position:absolute;top:0px;left:1440px">
+		<video style="width:360px" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:1040px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:400px;left:1440px">
+		<video width="360" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:1040px">
+		<video width="260" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:205px;left:1300px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<div style="background-color:#09090a;position:absolute;top:605px;left:1300px">
+		<video width="260" height="200" autoplay>
+			<source src="..\Images\hack.mp4" type="video/mp4">
+		</video>
+	</div>
+
+<div style="padding:100px;background-color:#000000;position:absolute;top:35%;left:35%;opacity:0.7;filter:alpha(opacity=70);border:2px solid #00ff26;width:20%">
+
+	<!-- <H1 style="color:white">WHAT IS NOW?</H1> -->
+
+		<form>
+			<input type="digits" id="h1" placeholder="S" style="padding:15px;width:5%;border:2px solid #00ff26;color: #00ff26;background-color: #09090a;font-size:20px;display:inline" >
+			<input type="digits" id="h2" placeholder="H" style="padding:15px;width:5%;border:2px solid #00ff26;color: #00ff26;background-color: #09090a;font-size:20px;display:inline" >
+			<input type="digits" id="m1" placeholder="E" style="padding:15px;width:5.5%;border:2px solid #00ff26;color: #00ff26;background-color: #09090a;font-size:20px;display:inline" >
+			<input type="digits" id="m2" placeholder="R" style="padding:15px;width:5.5%;border:2px solid #00ff26;color: #00ff26;background-color: #09090a;font-size:20px;display:inline" >
+			<input type="button" id="Sub" onClick="check()" value="LOCK" style="display:inline;padding:17px;padding-top:20px;background-color:#09090a;color:#00ff26">
+		</form>
+
+		<p id="printf" style="font-size:40px;color:red;padding:10px;font-family:sans-serif;text-align: center;">ERROR 404</p>
+		<p id="printf2" style="font-size:40px;color:red;padding:10px;font-family:sans-serif;text-align: center;">ERROR 404</p>
+	
+</div>
+
+	
+
+</body>
+</html>
